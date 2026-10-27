@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect width="32" height="32" rx="8" fill="rgba(11,95,255,0.12)"/>
+  <text x="50%" y="53%" dominant-baseline="middle" text-anchor="middle"
+    font-family="'Inter','Helvetica Neue',Arial,sans-serif"
+    font-weight="900" font-size="13" fill="#0B5FFF" letter-spacing="-0.5">CF</text>
+</svg>

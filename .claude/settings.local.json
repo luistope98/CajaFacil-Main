@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(for dir:*)",
+      "Bash(do echo:*)",
+      "Read(//c/Users/USER/Documents/GitHub/caja-facil-next/$dir/**)",
+      "Bash(done)",
+      "Read(//c/Users/USER/Documents/GitHub/caja-facil-backend/**)",
+      "Bash(npx prisma:*)",
+      "Bash(cd \"c:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\caja-facil-backend\" && grep -v -E \"PASS|SECRET|TOKEN|KEY\" .env 2>/dev/null || true)",
+      "Bash(npx tsc *)",
+      "Bash(npx prisma *)",
+      "Bash(cd \"C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\caja-facil-backend\" && test -f .env && echo \"env exists\" || echo \"no env file\")",
+      "Bash(node -e ' *)",
+      "Bash(cd \"C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\caja-facil-backend\" && cat prisma/migrations/20260602000000_add_pos_opening_balance/migration.sql)",
+      "Bash(cd \"C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\caja-facil-backend\" && cat prisma/migrations/migration_lock.toml)",
+      "Bash(mkdir -p \"C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\caja-facil-backend\\\\prisma\\\\migrations\\\\20260802000000_add_register_query_index\")",
+      "Bash(cd \"C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\caja-facil-backend\" && grep -rn \"CREATE INDEX\" prisma/migrations/ | head -10)",
+      "Bash(npx eslint *)",
+      "Bash(node _e2e_check.mjs)",
+      "Bash(npm test *)",
+      "Bash(cd \"C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\caja-facil-backend\" && find src -iname \"*.spec.ts\" | sort)",
+      "Bash(docker exec *)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\USER\\Documents\\GitHub\\caja-facil-backend\\prisma\\migrations"
+    ]
+  }
+}
